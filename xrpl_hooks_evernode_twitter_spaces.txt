@@ -1,0 +1,628 @@
+
+[00:00:00.000 --> 00:00:05.940]   All right. Thank you and everyone who joins us for the Incinidavallue Foundation, episode
+[00:00:05.940 --> 00:00:12.040]   64. And for all of those who listen to the information in the future, I'm glad to introduce
+[00:00:12.040 --> 00:00:19.160]   @wojake on Twitter or WoJake being my co-host. I tried to send you co-hosts at least there
+[00:00:19.160 --> 00:00:27.440]   WoW. I don't know why it did not let it come up as co-host. But he has been a developer
+[00:00:27.440 --> 00:00:34.280]   in the space for some time and specifically working on Evernote. And so I really, I thank
+[00:00:34.280 --> 00:00:38.480]   you for coming to the space, WoJake. Anybody who wants to come up has any questions when
+[00:00:38.480 --> 00:00:43.160]   we start speaking about all the different topics above hooks, side chains, hooks side
+[00:00:43.160 --> 00:00:47.240]   chain and Evernote. Please feel free to come up with any questions or hit the little bubble
+[00:00:47.240 --> 00:00:52.000]   at the bottom right and type them in there and we will get to them. But welcome, WoW.
+[00:00:52.000 --> 00:00:57.240]   And if you want to come up also, man, thank you for coming to the space and Jake and NY
+[00:00:57.240 --> 00:01:03.080]   Stone. Everybody here so quickly. I really thank you guys for coming. Excellent, excellent.
+[00:01:03.080 --> 00:01:12.480]   Well, you know, if we want to start off, WoW, maybe it's makes sense if we give an overview
+[00:01:12.480 --> 00:01:19.880]   of the concepts of what brought Evernote to fruition and what some of the use cases could
+[00:01:19.880 --> 00:01:24.360]   be and then maybe we can go into hooks and side chains and how that plays in interacting
+[00:01:24.360 --> 00:01:33.600]   with each other. No, and it was great, right? It encompasses exactly what the specifications
+[00:01:33.600 --> 00:01:40.680]   of whatever node is set out to accomplish. And so, you know, talking about hooks and
+[00:01:40.680 --> 00:01:49.360]   hooks side chain, why are hooks such an essential part to having Evernote play in the future,
+[00:01:49.360 --> 00:01:54.880]   hopefully, even with the XRP Ledger Mainnet, but play this ability to have this decentralized
+[00:01:54.880 --> 00:02:02.480]   role with the capabilities of all the smart contract, layer two execution logic that have
+[00:02:02.480 --> 00:02:11.200]   come with it. Excellent. Thank you very much, WoW. And hooks themselves, you know, the role
+[00:02:11.200 --> 00:02:16.920]   of hooks, some examples, I will go grab and I'll post them above top. Some of the ones
+[00:02:16.920 --> 00:02:22.640]   that have already been audited with the execution logic, but, you know, maybe we should go into
+[00:02:22.640 --> 00:02:28.480]   a little bit about hooks themselves, what the capabilities of hooks are for and how
+[00:02:28.480 --> 00:02:36.320]   they play into the actionable execution of how they would make Evernote more decentralized.
+[00:02:36.320 --> 00:02:43.040]   Is it fair to say in simplistic terms, basically hooks has the capability to execute up to
+[00:02:43.040 --> 00:02:48.320]   seven different actions, all that could exist on the XRP Ledger. So any action that you
+[00:02:48.320 --> 00:02:54.240]   could already do on the XRP Ledger could essentially be executed in one transaction
+[00:02:54.240 --> 00:03:03.520]   with a hook. Yeah. And see that to me is very interesting because I'd like to hear the
+[00:03:03.520 --> 00:03:08.000]   things that wouldn't be able to be executed that already exists as a function on the XRP
+[00:03:08.000 --> 00:03:12.800]   Ledger by a hook. And Chris and vet, either of you guys want to jump in on this conversation,
+[00:03:12.800 --> 00:03:16.440]   I don't want to, I know I only have Will for an hour, so I'm kind of digging in on him
+[00:03:16.440 --> 00:03:21.680]   a little bit with the questions. But if either of you guys want to jump in and have any thoughts
+[00:03:21.680 --> 00:03:25.920]   on anything that's spoken about, please. And Jake, also, if you have any questions either,
+[00:03:25.920 --> 00:03:31.880]   I'm just glad you're here. But yeah, well, if you want to, or Chris, I saw you on me,
+[00:03:31.880 --> 00:03:36.840]   please go ahead. Yeah, I think that when you were talking about different actions, I'm
+[00:03:36.840 --> 00:03:40.800]   pretty sure now that it's 10 hooks you can chain, isn't it? I'm pretty sure that was
+[00:03:40.800 --> 00:03:45.880]   the last I heard is that you can chain 10 hooks together. Oh, I thought it was seven.
+[00:03:45.880 --> 00:03:49.880]   That's, that's awesome. If it's 10, though. Is it 10? I mean, it was four, I know it was
+[00:03:49.880 --> 00:03:57.160]   four, and I'm sure that I'm sure Richard said it was 10 only on the recent Evernote call.
+[00:03:57.160 --> 00:04:07.040]   It is 10, no, isn't it? Yeah. Yeah. Yeah. Yeah. I think the best way I've heard hooks
+[00:04:07.040 --> 00:04:13.920]   described was by Richard a few weeks ago when he said, I think it was something like 90%
+[00:04:13.920 --> 00:04:19.720]   of what a theory can do for 10% of the cost. So it's not going to be quite as powerful
+[00:04:19.720 --> 00:04:24.960]   as what you can do on a theory. Everybody comes at a much, a much lower cost to achieve
+[00:04:24.960 --> 00:04:30.320]   it. And for the most part, what the missing 10% is not really that important. And then
+[00:04:30.320 --> 00:04:34.600]   you've got, you've got ever know that you can plug in, which is potentially then, you
+[00:04:34.600 --> 00:04:39.560]   know, if you even more than what you could get with theory. And so I think it's a really,
+[00:04:39.560 --> 00:04:43.780]   a really good balance. You know, you use hooks where it makes sense and use Evernote
+[00:04:43.780 --> 00:04:46.920]   where it makes sense. And then you get the best of both worlds. That's the way I'm kind
+[00:04:46.920 --> 00:04:52.280]   of looking at it. Sorry. Go ahead, Jake. I saw you on mute. Please feel free to jump
+[00:04:52.280 --> 00:04:58.560]   in. Yeah. Yeah. So I've got the experts up here. I am not an expert on all this stuff.
+[00:04:58.560 --> 00:05:07.640]   I like the dabble and have fun and imagine what's possible. Right. So with with hooks
+[00:05:07.640 --> 00:05:14.720]   being implemented on the XRPL as an amendment. We so they're currently exist trust lines.
+[00:05:14.720 --> 00:05:19.000]   And we talked about this last night, my space and T wasn't sure one way or the other. But
+[00:05:19.000 --> 00:05:23.160]   I think somebody here will be able to answer this. So can you execute automated payments
+[00:05:23.160 --> 00:05:30.240]   via a trust line or a DAP on the XRPL once hooks is implemented? So just just like you
+[00:05:30.240 --> 00:05:36.280]   you put your credit card in on a website and then you're on a subscription basis and they're
+[00:05:36.280 --> 00:05:42.680]   able to pull funds on a cadence that you've agreed to. Like, is that possible once this
+[00:05:42.680 --> 00:05:47.600]   passes? Then someone didn't we say so they were going to have a direct heavy hook? Yeah,
+[00:05:47.600 --> 00:05:53.920]   it's possible. You can you can do it. There is this hook. The thing is with folks, you
+[00:05:53.920 --> 00:05:59.240]   can do so much with folks that pretty much anytime you ask someone, can you do this with
+[00:05:59.240 --> 00:06:06.120]   folks? They most likely will say, yeah, probably because it can do so much and it works on
+[00:06:06.120 --> 00:06:11.240]   the payment engine of the XRPL. This is why it's so significant. And it pretty much changes
+[00:06:11.240 --> 00:06:17.400]   all the rules that you know before because they can intercept payments. They can initiate
+[00:06:17.400 --> 00:06:23.080]   payments and all of this stuff. So it's very, very significant. And therefore, yeah, people
+[00:06:23.080 --> 00:06:31.080]   usually refer to as yeah, probably possible with hooks. So XRP cannot be frozen on the
+[00:06:31.080 --> 00:06:37.880]   XRPL because it's the native asset with hooks. Does that make it possible to intercept XRP?
+[00:06:37.880 --> 00:06:42.160]   It's being sent between malicious addresses. If you have a hook, you can blacklist these
+[00:06:42.160 --> 00:06:49.280]   accounts. It's a I don't want to have XRP from Bojack because it's a you know, he's
+[00:06:49.280 --> 00:06:56.840]   now blacklisted, whatever he did something wrong. I can put him on my blacklist hook and I can
+[00:06:56.840 --> 00:07:02.320]   be sure that I not get you know, funds from him and then people ask me, hey, you know,
+[00:07:02.320 --> 00:07:09.760]   you got funds from him. What's going on? We see this with also on Ethereum where if you
+[00:07:09.760 --> 00:07:13.200]   should never accept random Ethereum anyway, because you don't know where this is coming
+[00:07:13.200 --> 00:07:19.440]   from. If this comes from any coin mixer, tomato cash, and so on previously, that's not good
+[00:07:19.440 --> 00:07:25.200]   because then your wallet is tainted. And so this feature is really good. And yet it's
+[00:07:25.200 --> 00:07:32.880]   not good. Have you looked at and looked at and chain.ai for KYC and AML compliance? They
+[00:07:32.880 --> 00:07:38.400]   said that they have like a code set of like seven lines that allows for you to be completely
+[00:07:38.400 --> 00:07:43.360]   compliant with that. I have seen the news. Didn't the XRP foundation post about it?
+[00:07:43.360 --> 00:07:50.440]   Yep. Yep. Yeah. I haven't looked into but I know they want also to speak on Apex at the
+[00:07:50.440 --> 00:07:58.520]   event and I've read, I've reviewed their application and it's about a KYC as you said, and I'm really
+[00:07:58.520 --> 00:08:02.840]   excited. But I don't know much about them. I don't know where they're really coming from.
+[00:08:02.840 --> 00:08:09.160]   I just saw what they're about. Maybe you know more. I don't. So I'm going through these things
+[00:08:09.160 --> 00:08:17.720]   selfishly. So when we first got into the mastermind, we wanted to create NFTs that would automate
+[00:08:17.720 --> 00:08:22.280]   payments. We just ended up doing everything through Web2. And so I don't know that we'll need
+[00:08:22.280 --> 00:08:27.080]   the NFT that we originally thought about creating for that for a lot of the automations that we
+[00:08:27.080 --> 00:08:32.840]   wanted to put in for smart contract capability. Maybe we'll rework it later on when all these
+[00:08:32.840 --> 00:08:40.040]   capabilities exist. But that's kind of where the automated payments piece started. And within that,
+[00:08:40.040 --> 00:08:49.240]   we've we've progressed to, we submitted an application or a proposal to XDC's network that would be a
+[00:08:49.240 --> 00:08:56.920]   ZK snark for accreditation. And that comes with KYC and AML compliance using a civic pass as a
+[00:08:56.920 --> 00:09:02.840]   soulbound token so that you're, you know, you only have to provide that one time to a few different
+[00:09:02.840 --> 00:09:09.640]   verified parties. And then you're just KYC to cross every application and also accredited across
+[00:09:09.640 --> 00:09:15.560]   every application that you wanted to go invest in. But in doing so, we're also trying to set up
+[00:09:15.560 --> 00:09:25.480]   the back end to allow for people to, for the ability to fund SPVs using digital assets to be
+[00:09:25.480 --> 00:09:32.440]   then able to delegate those funds to a wallet address to run a masternode on the XDC network.
+[00:09:32.440 --> 00:09:38.680]   And in doing that, we've come to the conclusion that, you know, the automated payments piece would
+[00:09:38.680 --> 00:09:43.240]   be nice capability to have, especially coming back the other direction when you're making
+[00:09:43.240 --> 00:09:48.840]   distributions from the masternode back to those participants that had allocated their their XDC to
+[00:09:48.840 --> 00:09:54.760]   the original wallet. And we were looking at, you know, like, is this double delegation? Can you
+[00:09:54.760 --> 00:09:59.640]   delegate it to this wallet, which it then double, you know, delegates it to the masternode? It
+[00:09:59.640 --> 00:10:04.840]   becomes unsecure when you're doing it that way. So I think what we'll do is end up issuing
+[00:10:06.280 --> 00:10:14.440]   an NFT that's a representation of your ownership of the shares inside the SPV and the smart contract
+[00:10:14.440 --> 00:10:18.920]   that's enabled with that NFT will pay out the distributions from the wallet address as they're
+[00:10:18.920 --> 00:10:27.720]   approved. Anyway, yeah, I definitely want, you know, a direct conversation here for Vojak and
+[00:10:27.720 --> 00:10:31.240]   the other knowledgeable people here want to speak about it, but I want to comment on this.
+[00:10:31.960 --> 00:10:37.320]   So for payments, of course, for payments, you know, XRPL is an O-brainer and all of these things,
+[00:10:37.320 --> 00:10:42.120]   I mean, this is it's it's most likely always suitable for for these purposes.
+[00:10:42.120 --> 00:10:49.720]   You don't probably need a lot of decentralization, maybe anyway, it depends on your business.
+[00:10:49.720 --> 00:10:57.640]   It's just mainly, you know, I mean, if you do some some public services, but if you have a group
+[00:10:57.640 --> 00:11:04.200]   or a subscription, something that people agree upon anyway, you know, then you can just do it,
+[00:11:04.200 --> 00:11:09.240]   you know, half decentralized. So that's not an issue because main issues, you cannot deploy
+[00:11:09.240 --> 00:11:14.520]   anything on the XRPL mainnet at least, like in terms of logic for smart contracts.
+[00:11:14.520 --> 00:11:23.560]   But because you mentioned zero knowledge proof, there is actually a university in Italy who is
+[00:11:25.560 --> 00:11:31.880]   experimenting with XRPL and zero knowledge proof. And I'm curious actually what
+[00:11:31.880 --> 00:11:37.800]   we have findings come out and if they're gonna, I don't know, propose something in that regard.
+[00:11:37.800 --> 00:11:42.440]   But for you, so the side chain for me personally, and I, you know, I want to let the other speak,
+[00:11:42.440 --> 00:11:48.680]   where more knowledgeable about this than me is for me, the side chain is really because of the
+[00:11:48.680 --> 00:11:56.280]   features it has and about it's more open for feature requests from businesses that is really
+[00:11:56.280 --> 00:12:02.040]   enterprise and business focused. So if you have a project, if you have something you want to do,
+[00:12:02.040 --> 00:12:08.600]   entrepreneurs, they have ideas, you will have, I think in my opinion, a very easy time on the
+[00:12:08.600 --> 00:12:13.400]   side chain, hook side chain, because if you're gonna, you know, propose your idea or your business
+[00:12:13.400 --> 00:12:18.360]   model or whatever, you have a high chance that these things will consider and be added. If not,
+[00:12:18.360 --> 00:12:24.920]   you know, you get a lot of assistance from other businesses there. And you can set up all of these
+[00:12:24.920 --> 00:12:31.320]   things very, very easily. Personally, I'm just saying this personally, hooks is not interesting
+[00:12:31.320 --> 00:12:37.080]   for me personally. What is interesting for me is Evernote. Evernote needs hooks. I personally
+[00:12:37.080 --> 00:12:42.840]   could not code hooks. It's just too difficult for me. It's the paradigm. But what I can do,
+[00:12:42.840 --> 00:12:49.400]   definitely, and I can work with Evernote, where I can deploy anything, do anything with it. So,
+[00:12:49.400 --> 00:12:55.960]   in my opinion, the sweet spot for a lot of developers and for a lot of project is going to be Evernote
+[00:12:55.960 --> 00:13:03.160]   because so universal. And you will have very, very few, in my opinion, at least, playing hooks,
+[00:13:03.160 --> 00:13:09.560]   you know, only hooks developers who only, you know, do a lot of hooks developers don't get me wrong.
+[00:13:10.200 --> 00:13:15.960]   But I think Evernote is just a sweet spot because it's so universal, so easy accessible. And you
+[00:13:15.960 --> 00:13:20.680]   can put all your logic that you built around your XDC network and how, you know, the staking
+[00:13:20.680 --> 00:13:25.400]   going to work and how, you know, people are going to move funds out of and, you know, convert
+[00:13:25.400 --> 00:13:31.960]   so easily you can put everything there. You pay for the host. And yeah, it's because,
+[00:13:31.960 --> 00:13:37.160]   essentially, the Linux environment. So, in my opinion, really, Evernote is, for me, the dark
+[00:13:37.160 --> 00:13:44.440]   horse that is flying under a lot of people's radar. But yeah, I want to let the others speak about it
+[00:13:44.440 --> 00:13:49.400]   more. Yeah. Yeah, I think that's good summarize.
+[00:13:49.400 --> 00:14:00.280]   And going into Evernote itself, why it is so, and how Vett had said, right, accessible to developers,
+[00:14:00.280 --> 00:14:06.120]   can you go maybe a little bit more into it? Well, Chris or Vett about the code base itself and how
+[00:14:06.120 --> 00:14:10.680]   it differs from a solidity or an EVM smart contract kind of standard.
+[00:14:10.680 --> 00:14:14.040]   I just want to take the chance to call out Jacked from Christina Coen down there
+[00:14:14.040 --> 00:14:22.040]   with his hook and his flag. He calls a lot of havoc in the community. And yeah, I just want to
+[00:14:22.040 --> 00:14:26.520]   make that unnecessary comment. But go ahead, go ahead.
+[00:14:27.800 --> 00:14:38.360]   Vett, you wouldn't be you if you didn't do it. Sorry, though, I changed it.
+[00:14:38.360 --> 00:14:43.480]   The subject for a second. Go ahead, well. I'll tell you what, my biggest thing is
+[00:14:43.480 --> 00:14:51.800]   right tools for the job. It's a motorized down by as a developer. And, you know, the problem with
+[00:14:51.800 --> 00:14:56.680]   with hooks as it stands the days you need to know see, which means that's a very small,
+[00:14:56.680 --> 00:15:02.120]   select group of developers that will be able to do them from day one. The TypeScript style language
+[00:15:02.120 --> 00:15:08.760]   that will come will certainly improve things. But where Evernote is concerned, really, it's a much
+[00:15:08.760 --> 00:15:13.480]   it's a much easier transition. And I can speak to it directly having gone through that.
+[00:15:13.480 --> 00:15:20.920]   It was really easy to get speed with Evernote to a basic degree, literally in the day, day and a half
+[00:15:20.920 --> 00:15:25.960]   is all it took me to get comfortable with feeling like I could actually do something with it.
+[00:15:25.960 --> 00:15:31.000]   I have a feeling I wouldn't tell the same thing about hooks because I'm not a C developer.
+[00:15:31.000 --> 00:15:35.320]   The danger, though, of course, is that you have to be prepared to use the right tool for the job.
+[00:15:35.320 --> 00:15:41.320]   And as world would say, Evernote will come at a different type of cost.
+[00:15:41.320 --> 00:15:48.600]   So what I hope doesn't happen is developers are lazy and just build on Evernote, something
+[00:15:48.600 --> 00:15:53.720]   that could be done more efficiently with hooks because they don't know C or because they're not
+[00:15:53.720 --> 00:15:58.920]   prepared to just bring in a C developer just to write a couple of efficient hooks. So that's my
+[00:15:58.920 --> 00:16:07.400]   sort of take on the journey of a developer. That's an interesting point. Is any example that
+[00:16:07.400 --> 00:16:14.680]   come to your mind, Chris? Well, no, I don't have a specific example of it happening today
+[00:16:14.680 --> 00:16:19.160]   in blockchain. But I can think of many examples over my career where I've seen developers take
+[00:16:19.160 --> 00:16:25.000]   shortcuts because they're either lazy or they're just not particularly that experienced.
+[00:16:25.000 --> 00:16:36.680]   And that's what we want to try and avoid. So I think that over as we progress and as the ecosystem
+[00:16:36.680 --> 00:16:45.320]   sort of likes finds its feet, I'm hoping that we'll just find a natural solution to this.
+[00:16:45.320 --> 00:16:51.000]   And I think what will happen is I think that, and again, this is just an opinion, but I think a
+[00:16:51.000 --> 00:16:58.280]   community of hooks builders are likely to emerge. And I think most projects and developers will
+[00:16:58.280 --> 00:17:04.520]   simply outsource the work of creating efficient hooks to those type of people that specialize in
+[00:17:04.520 --> 00:17:13.960]   that in hooks and simply use Evernote where hooks don't make sense. So, and I think that's a far
+[00:17:13.960 --> 00:17:17.000]   better way to do it. And it's certainly how I would do it. I certainly wouldn't want to look
+[00:17:17.000 --> 00:17:24.200]   to learn C because I've got to basically write a hook. And unless the new TypeScript style
+[00:17:24.200 --> 00:17:31.400]   language is just an easy transition, which it might be, then I would probably favor bringing in somebody
+[00:17:31.400 --> 00:17:36.680]   that's specialized in hooks development just to do that small portion, who's remember hooks are not
+[00:17:36.680 --> 00:17:41.560]   significantly large amounts of code. They're just one function and, you know,
+[00:17:41.560 --> 00:17:47.160]   shorter the better. Remember this code has got to be compiled down and the goal is to get as
+[00:17:47.160 --> 00:17:53.560]   efficient as possible. So really, you know, if an experienced developer is going to be able to
+[00:17:53.560 --> 00:17:59.640]   write that hook more efficiently, it makes sense to do that. Thank you for the explanation.
+[00:17:59.640 --> 00:18:05.080]   Jean, man, you have your hand up also. Oh, sorry, Chris. You unmuted. You still want to speak?
+[00:18:05.080 --> 00:18:11.240]   No, no, no. Oh, just Twitter glitch. And Jean, thank you for coming up, man. And you have your
+[00:18:11.240 --> 00:18:16.920]   hand up. So please feel free to jump in. So everybody got all these devs in here. So much energy.
+[00:18:16.920 --> 00:18:22.200]   Now this one is share of love. So whoa, what's up, that? So Jack, Chris, everybody.
+[00:18:23.480 --> 00:18:31.960]   Is an honor. I am a C developer, so I do understand your pain points. But there are ways around
+[00:18:31.960 --> 00:18:39.800]   the frustrations. I think the GNU compiler collection, GCC, and CMake, making sure those
+[00:18:39.800 --> 00:18:44.360]   are up to date, that that will help in making sure you're not, you know, coding any Unicode,
+[00:18:44.360 --> 00:18:52.120]   you're producing any Unicode. I learned just programming in C and C++, and I had to build
+[00:18:52.120 --> 00:18:57.080]   OpenSSL from the ground up. If I didn't deploy it right, I destroyed the kernel. So I learned very
+[00:18:57.080 --> 00:19:02.360]   quickly. And there's other programs that I've worked on as well. This is not like a bragging
+[00:19:02.360 --> 00:19:07.080]   thing, but it's just if there's any guides that need to be put out anything, you know,
+[00:19:07.080 --> 00:19:12.600]   I can do to help with that, you know, with understanding like how to handle hooks.
+[00:19:12.600 --> 00:19:19.480]   Please let me know. Because I was looking even at like the Go plugin as well. And they have like
+[00:19:19.480 --> 00:19:25.720]   HTTPS hooks, where it's just like, now you're getting PKI involved, and now you're able to
+[00:19:25.720 --> 00:19:31.480]   create those TLS certificates, you know, so that, you know, you're not just running off of HTTP.
+[00:19:31.480 --> 00:19:37.960]   Because again, when we think of webhooks, I think of HTTP, you know, API that's going through.
+[00:19:37.960 --> 00:19:42.440]   So how can we secure the API? And I think that was like one of the biggest pain points even
+[00:19:42.440 --> 00:19:47.320]   years ago from a lot of security analysts is just like, hey, how are you going to secure the APIs?
+[00:19:47.320 --> 00:19:53.240]   And I feel like, you know, collaborating, you know, with Evernote, we can do that as well.
+[00:19:53.240 --> 00:20:00.440]   I feel like that can be done. I've been talking to Wo on some options. So, you know, just making
+[00:20:00.440 --> 00:20:05.720]   that effective communication. And just a question I even have, just Debbie and 11, do you think
+[00:20:05.720 --> 00:20:14.920]   that would be a good infrastructure for Evernote? Chris, Wo JQD, you've got one on the left.
+[00:20:14.920 --> 00:20:25.160]   I'll be honest, I understood about 90% of what you said. Some of it did go over my head. And for
+[00:20:25.160 --> 00:20:32.520]   all of those in the audience, Gene, Gene by heart is a cryptographer. And so he really does know
+[00:20:32.520 --> 00:20:37.960]   the technicals of the back ends of what's going on between these applications and servers. And
+[00:20:39.640 --> 00:20:44.680]   maybe if you repeat the question again, I don't know if Wo or Chris wasn't there.
+[00:20:44.680 --> 00:20:48.760]   I think, yeah, if you can repeat the question, because I think Jack wants to answer that. So,
+[00:20:48.760 --> 00:20:54.520]   go ahead. Repeat it and then, Jack. Welcome up, Jack. I'm sorry if I made you feel inclined to
+[00:20:54.520 --> 00:20:59.000]   come up because I said the invite. But anybody else in the audience, feel free to come up also.
+[00:20:59.000 --> 00:21:03.720]   And if you have any questions, Jack is a C developer, so you should understand what Gene is
+[00:21:03.720 --> 00:21:09.080]   about to going to say. My question was, for Evernote's infrastructure,
+[00:21:09.080 --> 00:21:15.160]   would Debbie and 11 be fine? Would a Bullseye environment be fine? Or would his bookworm a bit
+[00:21:15.160 --> 00:21:21.960]   better? Because we're going from like Debbie and 11 to Debbie and 12. Oh, I should have realized
+[00:21:21.960 --> 00:21:29.800]   that question because I'm a node operator. I didn't realize the question at hand. Thank you
+[00:21:29.800 --> 00:21:39.560]   though for answering that well. But I'm curious what Jack is using.
+[00:21:39.560 --> 00:21:42.920]   That is lethal today with those sound effects.
+[00:21:42.920 --> 00:21:51.000]   Shout out to Angie. You're talking about DKAM now.
+[00:21:51.000 --> 00:21:59.000]   The big thing about the DKAM that you're talking about is the fact that you're decentralizing the
+[00:21:59.000 --> 00:22:06.120]   thing, the actual management of the key. So you're able to have the contract running and then
+[00:22:06.120 --> 00:22:11.960]   it can interact with the ledger. That's the key point you're making, isn't it? But decentralized.
+[00:22:11.960 --> 00:22:17.640]   That to me is where the real value, because you have a contract down that can act on the XRK
+[00:22:17.640 --> 00:22:21.800]   ledger from within Evernote in a decentralized manner.
+[00:22:21.800 --> 00:22:28.680]   When you say DKAM for everybody in the audience who doesn't know what the Akron of DKAM stands
+[00:22:28.680 --> 00:22:34.520]   for? One of WO's projects. Would you like to explain it well?
+[00:22:34.520 --> 00:22:40.520]   I think you're understanding the value and the importance of it, to be honest.
+[00:22:40.520 --> 00:22:47.800]   I agree. If you are going to run Evernote and you want to interact with the ledger
+[00:22:47.800 --> 00:22:56.360]   and you're not running your own or your own kit and you're effectively relying on using
+[00:22:56.360 --> 00:23:00.360]   others, which is the whole point of the decentralized nature of Evernote,
+[00:23:00.360 --> 00:23:06.680]   you'd have to have your own private keys on that server, which you would never, nobody would do that.
+[00:23:06.680 --> 00:23:13.560]   So to try and really dumb this down, when you sign a transaction on the ledger,
+[00:23:13.560 --> 00:23:18.040]   you're doing it ultimately with your private key. We're talking about doing that with code
+[00:23:18.040 --> 00:23:23.560]   so that you can sign a transaction in code for using what has, you know,
+[00:23:23.560 --> 00:23:28.120]   WO described it as like a sign-list. So you need, you effectively delegate that
+[00:23:28.120 --> 00:23:37.000]   responsibility of signing across multiple, you know, accounts. I mean, I just think that WO's
+[00:23:37.000 --> 00:23:42.280]   underselling it, to be honest, because when I started looking at Evernote, the first thing I
+[00:23:42.280 --> 00:23:48.760]   think I said to WO was I was surprised it wasn't almost like fundamentally part of the framework.
+[00:23:48.760 --> 00:23:53.000]   Then we had a long discussion about why and I support the reasons for that.
+[00:23:53.000 --> 00:23:58.280]   And I think it's just fantastic that you've got somebody like WO who's not directly part of Evernote,
+[00:23:58.280 --> 00:24:05.240]   but is clearly a big advocate for it that's working towards helping to improve the ecosystem
+[00:24:05.240 --> 00:24:14.680]   for all the rest of us developers out there. And this is just not enough, you know, credit
+[00:24:14.680 --> 00:24:18.920]   given to the developers that are out there that are actually building the tooling and building
+[00:24:18.920 --> 00:24:24.600]   the future infrastructure that copious numbers of developers in the future will just use
+[00:24:24.600 --> 00:24:31.240]   without realising the pain that has gone through to make it all possible. So I have only, you know,
+[00:24:31.240 --> 00:24:35.960]   big thumbs up for what WO's doing there. Every journey starts with the first step.
+[00:24:35.960 --> 00:24:42.600]   Very true, Gres. And I second what Chris had said, well, I think what you're building and what
+[00:24:42.600 --> 00:24:48.840]   you're doing in this space is extremely important and it's really helpful. And you being here today
+[00:24:48.840 --> 00:24:53.480]   right now Chris and Vad all being here, Gene being here in this space. And Andy, welcome, by the
+[00:24:53.480 --> 00:25:00.040]   way. Thank you for coming. But this information that we're sharing, you know, this really is helping.
+[00:25:00.040 --> 00:25:05.720]   I hope all the individuals who listen to it know what's coming and especially from a developer
+[00:25:05.720 --> 00:25:10.040]   standpoint, be able to prepare and start hopefully looking at what you guys are doing and start
+[00:25:10.040 --> 00:25:14.760]   building and helping just like you guys are with Evernote and Hooks right now.
+[00:25:14.760 --> 00:25:19.960]   Can I bring your background to Hooks a little bit? Yeah, please, please for free to question.
+[00:25:19.960 --> 00:25:25.320]   So one of the sort of like the big things right now is obviously the fact that Hooks
+[00:25:25.320 --> 00:25:31.560]   will be deployed initially as a side chain. So it's not going to be part of the mainnet.
+[00:25:31.560 --> 00:25:38.680]   And we did discuss, I think on the last spaces that you hosted about Hooks and Evernote that
+[00:25:38.680 --> 00:25:44.840]   that was the case. There were a few unknowns at that point. A few more details have now
+[00:25:44.840 --> 00:25:57.160]   since come out around the way that XRP will be bridged into the side chain. And I think it's
+[00:25:57.160 --> 00:26:05.560]   fascinating to see where this is going to go and I wondered what Roanvep, their opinions were on
+[00:26:05.560 --> 00:26:10.440]   the actual, the bridge, the mechanism of the bridge which I think is really impressive.
+[00:26:10.440 --> 00:26:18.920]   However, it does create questions now about whether or not there will ever be Hooks on the
+[00:26:18.920 --> 00:26:24.680]   mainnet or whether or not the XRP will ever be able to flow back to the mainnet because those
+[00:26:24.680 --> 00:26:31.000]   are unknown questions that are almost unanswerable but very interesting to talk about.
+[00:26:34.200 --> 00:26:41.240]   Yeah, sure. In my opinion, to the bridging, there's a lot of headaches around the bridging.
+[00:26:41.240 --> 00:26:51.240]   The other thing is, I don't like the bridging mechanism itself is brilliant if you think about it.
+[00:26:51.240 --> 00:27:02.200]   It's sort of great, you burn it and then you verify it with Xpop and then you can issue
+[00:27:02.760 --> 00:27:10.360]   a side chain XRP or whatever it's going to call a side chain XRP on the side chain.
+[00:27:10.360 --> 00:27:17.880]   It's really cool. I do see definitely the issue with coming back
+[00:27:17.880 --> 00:27:30.040]   because it means essentially that you have to mint XRP on the main chain. And minting XRP on the
+[00:27:30.040 --> 00:27:36.200]   main chain isn't maybe no problem. Maybe isn't a problem but for some people it is.
+[00:27:36.200 --> 00:27:47.320]   And I can see why it's very unusual maybe and also what people don't change their opinions very
+[00:27:47.320 --> 00:27:55.480]   often. That's first and foremost. But when people run with their sayings, they're going to stand by
+[00:27:55.480 --> 00:28:02.200]   it. So when David Schwartz was saying for a very, very long time, all XRP has been mined in the
+[00:28:02.200 --> 00:28:10.200]   genesis. There will be no XRP minted ever again and so on. Then he has to change his
+[00:28:10.200 --> 00:28:18.600]   soul slogan that he was running with for a whole time. And many people would maybe agree with this.
+[00:28:18.600 --> 00:28:26.760]   So many people would say, "Hey, all XRP that has been mined or p-mined, there should no be new
+[00:28:26.760 --> 00:28:32.360]   ones in existence." The supply would be the same. It would just, you burn and then you
+[00:28:32.360 --> 00:28:38.680]   should burn an issue basically. So the supply would be the same. But you have this constant
+[00:28:38.680 --> 00:28:49.240]   ongoing new introducing of XRP, I guess, with that bridging mechanism. Am I concerned about
+[00:28:49.240 --> 00:28:56.280]   exploits? I don't know. The thing is, all these bridges, no matter even if XS38, they are all
+[00:28:56.280 --> 00:29:02.760]   integrated in layer one. If either one of them is faulty, we are screwed anyway. Because they are
+[00:29:02.760 --> 00:29:10.120]   on the layer one. If that is the case, then we have a problem. We cannot turn them off or something.
+[00:29:10.120 --> 00:29:17.080]   We would turn off the ledger. So this is why I'm saying in general, all these bridging mechanisms
+[00:29:17.080 --> 00:29:21.320]   are a bit of a headache. You can choose your downside, basically. You can choose your downside.
+[00:29:21.320 --> 00:29:27.240]   You can say on one side, "Well, you have to witness servers. You can compromise them and
+[00:29:28.520 --> 00:29:32.760]   the locked XRP. You can take them away." And the other side, if you say, "Yeah." But then when
+[00:29:32.760 --> 00:29:37.560]   somebody would exploit, they couldn't suddenly mint XRP, maybe. Am I comfortable with it? So you
+[00:29:37.560 --> 00:29:43.960]   can choose really your downside. What it tells me though is, and just before the project is saying,
+[00:29:43.960 --> 00:29:48.200]   what it tells me though is there is no right answer to it. There is the only thing that you
+[00:29:48.200 --> 00:29:55.880]   couldn't consider is where do we have, and I really allow this argument for me personally as well,
+[00:29:55.880 --> 00:30:03.160]   is where do we have the most experience with? I think with the other design, with X-38,
+[00:30:03.160 --> 00:30:08.200]   you have to agree that we have at least experience with it. Was it a good experience?
+[00:30:08.200 --> 00:30:13.320]   I mean, we had a lot of exploits and other chains and so on. Maybe not, but we have experience with
+[00:30:13.320 --> 00:30:20.280]   it. With this way, I haven't seen it on other chains in a broad scale being done, which is not
+[00:30:20.280 --> 00:30:24.920]   bad. It doesn't mean bad, but it means we don't have much experience with it. So we would go
+[00:30:25.480 --> 00:30:31.240]   and learn basically and see what's going on. And with the topic around XRP and real value,
+[00:30:31.240 --> 00:30:39.720]   I mean, we have to choose, I guess, but I let Bojack speak. Yeah, I guess, you will see it.
+[00:30:39.720 --> 00:30:46.440]   Oh, go ahead. Yes, that's cool. But Bojack, this bridge would work with any side chain that is
+[00:30:46.440 --> 00:30:53.320]   XRP L-based, correct? Sorry, this burning mechanism would work with any side chain
+[00:30:53.320 --> 00:30:58.120]   that is XRP L-based. Let's say there's hook side chain and let's say there is also an automated
+[00:30:58.120 --> 00:31:04.440]   market maker side chain. They could use the same mechanism and the same bridge mechanism,
+[00:31:04.440 --> 00:31:17.160]   burn to min, correct? Yeah, correct. Correct. But device versa, if they want to have also a
+[00:31:17.160 --> 00:31:22.680]   bridge back to the mainnet, would they need another amendment as well? Or could they use the same
+[00:31:23.320 --> 00:31:30.840]   amendment that labs is potentially proposing for the bridge back from the side chain?
+[00:31:30.840 --> 00:31:38.120]   This is my question, basically. If the way back, which is not necessary, but the way back to the
+[00:31:38.120 --> 00:31:44.600]   main chain, is this proprietary for just the hook side chain or can this be used also for
+[00:31:44.600 --> 00:31:51.080]   other XRP L-based chains? I guess it's too early. Sorry, I don't know why I'm asking it. We don't even
+[00:31:51.080 --> 00:31:58.920]   have the proposal. I'm just curious. Can you guys hear me? Yeah, I can hear you. Yeah, so I
+[00:31:58.920 --> 00:32:05.160]   totally dumb to ask you because we haven't seen it. Yeah, I guess. Sorry?
+[00:32:05.160 --> 00:32:12.680]   Let's give me a minute. I think to just be broken, let me rejoin. I had a feeling and I think
+[00:32:12.680 --> 00:32:16.680]   most people in the audience have not been able to hear Woe speaking throughout the
+[00:32:16.680 --> 00:32:21.320]   base here. Yeah, it was a... Yeah, I couldn't hear him. I couldn't hear him for the first part. I was like...
+[00:32:21.320 --> 00:32:28.440]   Unless you were a speaker, I think, for some reason. Sorry about that there, guys. I just realized
+[00:32:28.440 --> 00:32:34.280]   it so I fixed it. Well, go ahead and try and speak now. Yeah, okay. So... Do you can hear him now?
+[00:32:34.280 --> 00:32:43.240]   I can hear him now. Okay. So, any chain that is followed by the XRP Lager consensus protocol
+[00:32:44.840 --> 00:32:55.800]   could utilize B2M or burn-to-min protocol to bridge main and XRP over to their independent
+[00:32:55.800 --> 00:33:02.600]   ledger in a way that they're not issuing a base currency, a new base currency, like what Bitcoin
+[00:33:02.600 --> 00:33:08.760]   hashed it to... Yeah. Correct, but I was... Again, sorry, I don't know why I asked this.
+[00:33:08.760 --> 00:33:15.960]   Please go ask because I lost track of your question. No, no, no. So, okay. So, I basically asked if
+[00:33:15.960 --> 00:33:24.520]   the way back, which is the minting on the main chain, which is not yet proposed, they want to
+[00:33:24.520 --> 00:33:33.160]   propose this very soon, the way back, which is not necessary for this item to exist and for B2M
+[00:33:33.160 --> 00:33:41.400]   to work, I get that. But for the way back, the bridging back, with this mechanism also could be
+[00:33:41.400 --> 00:33:52.120]   used with one single amendment, also for other chains. I asked this for the reason that the main
+[00:33:52.120 --> 00:34:01.000]   chain UNL will then need to trust all side chain UNLs that utilize this bridge. You know,
+[00:34:01.000 --> 00:34:09.640]   like I may trust the side chain, the hook side chain UNL, but I may not trust the gene side chain
+[00:34:09.640 --> 00:34:19.720]   UNL. And because I don't trust him, I don't want him to make use of this new bridge to bridge back
+[00:34:19.720 --> 00:34:28.520]   and then be able to mint XRP. So, would that be the case? Or is the... What have you understood,
+[00:34:28.520 --> 00:34:33.720]   basically? Again, sorry, because the code is not public and I'm still asking you this.
+[00:34:33.720 --> 00:34:39.800]   But yeah, what do you think? So, yeah, this is conceptual, really. But your networks,
+[00:34:39.800 --> 00:34:48.920]   UNL, majority UNL, needs to trust genes UNL for you to be able to, in a way, mint XRP
+[00:34:48.920 --> 00:34:55.160]   on your chosen network. What was it, was it the main net or the hook side chain?
+[00:34:56.120 --> 00:35:00.120]   No, no, no. Like he wants to mint XRP on the main chain.
+[00:35:00.120 --> 00:35:07.400]   Yeah, all right. So, the main chain, the main net UNL has to trust genes majority UNL. So,
+[00:35:07.400 --> 00:35:13.880]   a particular validator list published by a trusted entity that can be anyone really,
+[00:35:13.880 --> 00:35:19.400]   depending on who it is. But the main net, the main net's unique node list,
+[00:35:20.120 --> 00:35:27.160]   the main net's majority unique node list has to trust genes unique node list to be able to
+[00:35:27.160 --> 00:35:37.400]   mint XRP on the main net via XRP being mint on his network. So, the way that it works is that
+[00:35:37.400 --> 00:35:46.600]   the main net majority UNL has to trust that genes majority UNL is a reliable, be secure and see
+[00:35:47.720 --> 00:35:54.280]   what was it called again? Secure reliable and I've totally forgotten it's like one in the morning
+[00:35:54.280 --> 00:36:01.160]   right now. And I thank you for staying up so late to speak with us well. This has actually got
+[00:36:01.160 --> 00:36:05.560]   to a very interesting point there. I really liked your question there, but Krista, you have your
+[00:36:05.560 --> 00:36:13.160]   hand up, so please feel free to jump in. So, I mean, I can probably, well, I think I can see
+[00:36:13.160 --> 00:36:19.320]   why Vets asking the question because it's initially came straight to my mind when I sort of read the
+[00:36:19.320 --> 00:36:28.360]   proposal. It was so obviously a concern to me. However, when you consider who's behind all of this
+[00:36:28.360 --> 00:36:35.960]   and the caliber of developers we're talking about, I find it almost impossible to believe that they
+[00:36:35.960 --> 00:36:41.400]   have not had these conversations 10 times over already. And I, having only thought about it briefly,
+[00:36:41.400 --> 00:36:46.120]   can already think of a number of ways in which things like the potential ways that this could
+[00:36:46.120 --> 00:36:51.160]   be exploited. I can already think of ways in which it could be relatively easily mitigated.
+[00:36:51.160 --> 00:36:57.080]   So, I'm pretty confident that we will get to a point where this can go to review and I'm pretty
+[00:36:57.080 --> 00:37:01.560]   confident it'll be in a pretty decent state by the time that happens. So, I don't really have any
+[00:37:01.560 --> 00:37:07.720]   major concerns over the actual implementation. I think that the idea that the cryptography
+[00:37:07.720 --> 00:37:14.440]   sign mechanism of X-Pop is genius. And if no one is, if you haven't watched the video of the demo of
+[00:37:14.440 --> 00:37:23.080]   X-Pop that XRPL Labs did, it's on the XRPL Foundation YouTube. I watched it only a few days ago and
+[00:37:23.080 --> 00:37:30.040]   it's brilliant. It's definitely worth going and having a watch of that. And they're effectively
+[00:37:30.040 --> 00:37:34.680]   similar kind of mechanism for how they're going to use the X-Pop with cryptographically signing
+[00:37:34.680 --> 00:37:40.920]   the burning. For me, this is more fundamental. It comes back to the question is,
+[00:37:40.920 --> 00:37:51.960]   will this stand the amendment pass more from a political angle than an actual technological
+[00:37:51.960 --> 00:38:01.960]   angle? Because I can see a very real need for if hooks is not ever going to go on to the main chain,
+[00:38:02.760 --> 00:38:09.240]   then a bridge has to be made back. Otherwise hooks can never truly fulfill its fullist potential.
+[00:38:09.240 --> 00:38:15.560]   You know, if you can move XRP to the side chain, get all the amazing functionality of hooks and
+[00:38:15.560 --> 00:38:20.280]   then know that you can pull your XRP back to the main chain in the future, that's a truly usable
+[00:38:20.280 --> 00:38:25.160]   system. If you send your XRP on a one-way journey and it's never going to be able to come back,
+[00:38:25.160 --> 00:38:31.640]   half the things that we've talked about for hooks will have no value. What's the point,
+[00:38:32.200 --> 00:38:37.080]   having a blacklist on a network where you wouldn't want to keep any of your XRP? You're only going
+[00:38:37.080 --> 00:38:42.680]   to want to send XRP to the side chain if you intend to use it. You'd never move any significant
+[00:38:42.680 --> 00:38:47.720]   amount there unless you can get it back. At least I wouldn't. So I think politically,
+[00:38:47.720 --> 00:38:54.040]   there's the issue is, as I think Vat said, there's always been a major thing with the XRP
+[00:38:54.040 --> 00:39:01.560]   ledger about you can't make more XRP. It's one of the biggest foots in the entire sort of like
+[00:39:01.560 --> 00:39:05.640]   XRP versus all the other chains. And I just want to state for the record,
+[00:39:05.640 --> 00:39:13.720]   categorically, as it stands today, you cannot make more XRP. Any idiot that tells you different
+[00:39:13.720 --> 00:39:20.520]   is just an idiot, okay? And they need to go and read the manual, okay? However, the import,
+[00:39:21.080 --> 00:39:27.960]   the reason I think this is problematic is politically speaking, the import does at some level
+[00:39:27.960 --> 00:39:33.880]   break that fundamental principle. Now, for anyone that can understand technically what's
+[00:39:33.880 --> 00:39:39.960]   actually happening, you're not actually, you are technically making more XRP, which you're never
+[00:39:39.960 --> 00:39:46.280]   going to take the amount that's been made greater than the original supply that ever existed. So,
+[00:39:46.280 --> 00:39:53.960]   to my mind, it's kind of a bit of a moot point. However, I can just imagine the amount of foot
+[00:39:53.960 --> 00:39:59.480]   that's going to come out when some Bitcoin gets hold of the fact that you can now mint XRP on the
+[00:39:59.480 --> 00:40:06.040]   XRP ledger. The problems that that will potentially cause are for me more likely what could stop
+[00:40:06.040 --> 00:40:12.520]   this from happening than the technological. Thank you. Yeah, exactly this base. This was
+[00:40:12.520 --> 00:40:18.600]   all my concern that I was talking about in the beginning, because the thing itself,
+[00:40:18.600 --> 00:40:24.440]   and as I said, the supplies, it's the same, it's going to stay the same. It's just what you
+[00:40:24.440 --> 00:40:29.400]   burn to just kind of come back to existence, but these coming back to existence from being burned,
+[00:40:29.400 --> 00:40:34.920]   like in a one to one ratio, of course, you know, nothing to change, is more of a political or maybe
+[00:40:34.920 --> 00:40:41.720]   philosophical. I don't know, you know, discussion and, you know, it's end-to-end really, really that
+[00:40:41.720 --> 00:40:49.640]   that, you know, is I guess my issue quote-unquote. I'm going to go ahead and talk about the
+[00:40:49.640 --> 00:40:59.400]   technological changes that will come with B2M, the upside chain and employment. So, why don't we
+[00:40:59.400 --> 00:41:08.920]   see B2M and the current, what has been proposed? Sorry, why don't we see B2M being implemented
+[00:41:08.920 --> 00:41:15.000]   on other chains and on other protocols like Ethereum? Because it's impossible for them to do
+[00:41:15.000 --> 00:41:20.200]   such a thing, because they don't follow the same consensus protocol as the way that they validate
+[00:41:20.200 --> 00:41:28.120]   transactions, the way that who validate transactions on Ethereum is in a way uncertain and inconsistent,
+[00:41:28.680 --> 00:41:36.440]   because they don't have the majority UNL where a set of validators perform validation and distribute
+[00:41:36.440 --> 00:41:42.120]   their validations over to the entire, they propagate it over to the entire network.
+[00:41:42.120 --> 00:41:52.920]   They just don't share the same mechanism as we do. And B2M, it perfectly works within the
+[00:41:52.920 --> 00:42:01.160]   XR Pileggio consensus protocol and the technology really. So, yeah, with this
+[00:42:01.160 --> 00:42:10.840]   new bridging mechanism, which is B2M or B2M, XPOP, the upside chain and the important
+[00:42:10.840 --> 00:42:19.160]   amendment, XRP will not only be a native token on the XR Pileggio, may not, but it will be a
+[00:42:19.160 --> 00:42:27.000]   multi-chain asset in which it is a native multi-chain asset, because consensus will be met,
+[00:42:27.000 --> 00:42:34.520]   governance will be consistent. And the way, the thing that excites me is that if
+[00:42:34.520 --> 00:42:43.800]   important amendment B2M is in a way accepted broadly by developers, by users, we could create a
+[00:42:45.000 --> 00:42:52.120]   multi-chain ecosystem, a true multi-chain ecosystem, where XRP does not only live on the mainnet,
+[00:42:52.120 --> 00:42:59.480]   but it lives on multiple separate ledgers that have different factors, different use cases and
+[00:42:59.480 --> 00:43:06.840]   different factors that would result in different use cases, different extractable value for different
+[00:43:06.840 --> 00:43:14.200]   types of users. But with the same asset, why? Because B2M and the important amendment does not
+[00:43:14.200 --> 00:43:21.960]   maintain a bridging mechanism, which essentially is a representation of a token like wrapped
+[00:43:21.960 --> 00:43:29.880]   Ethereum on the XRP or wrapped XRP on Ethereum. No, that's not how B2M and the important
+[00:43:29.880 --> 00:43:35.720]   amendment works. Of course, there are a few, there are a few concerns with it, but over time,
+[00:43:35.720 --> 00:43:42.760]   when the technology has proven itself, when the side chains unique note list, its majority
+[00:43:42.760 --> 00:43:49.880]   unique note list is consistent, is consistent, is reliable and insecure, and it has proven itself
+[00:43:49.880 --> 00:43:57.800]   to be worthy. Of course, the mainnet may adopt it. And XRP would turn into a multi-chain asset.
+[00:43:57.800 --> 00:44:01.560]   Will this happen? I don't know. I don't even know what I'm going to eat tomorrow.
+[00:44:01.560 --> 00:44:10.120]   So at a technological standpoint, if this does get adopted at a ecosystem-wide level,
+[00:44:10.120 --> 00:44:16.680]   we're going to turn, we're going to essentially turn into a multi-chain
+[00:44:16.680 --> 00:44:23.880]   ecosystem for XRP where say, okay, let's make an example. The mainnet would be reserved for
+[00:44:23.880 --> 00:44:31.400]   what's it called payments, native payments that are done in a permission list open and
+[00:44:31.400 --> 00:44:38.440]   trust this manner. In an efficient manner that is cost efficient, you could transact value
+[00:44:39.000 --> 00:44:45.880]   it's simple on the mainnet. But if you do one complex step, a complex decentralized
+[00:44:45.880 --> 00:44:52.440]   application, if you want an X system where its smart contract attributes are matured,
+[00:44:52.440 --> 00:45:00.440]   are progressing in a quite fast rate, you could bridge over to the hook side chain by a B2M
+[00:45:00.440 --> 00:45:09.880]   and the import amendment. And use your XRP, which is now a multi-chain asset, a native multi-chain
+[00:45:09.880 --> 00:45:16.440]   asset, and utilize it to perform computation with smart contracts and do whatever you want
+[00:45:16.440 --> 00:45:23.800]   with smart contracts really. And if you'd want to opt into a more, just one example here,
+[00:45:23.800 --> 00:45:30.680]   opt into a more privacy-focused network with a few attributes that are of course pushing for a
+[00:45:30.680 --> 00:45:37.160]   privacy-focused environment, I guess, you could bridge over to that side chain via B2M
+[00:45:37.160 --> 00:45:45.000]   and still use the same XRP because B2M and the import amendment enables XRP as a multi-chain asset.
+[00:45:45.000 --> 00:45:53.240]   If consensus and governance is consistent and overlapped within these, within a set of networks.
+[00:45:53.240 --> 00:46:00.440]   Oh yeah, I think I went over to B2M. No, I really, really enjoyed that. And it was a really nice little
+[00:46:00.440 --> 00:46:04.520]   overview of everything we've spoken about. But Chris, I saw your hand out there, so go ahead.
+[00:46:04.520 --> 00:46:11.720]   You touched, I mean, I was going to, that was going to be sort of like the way I would look to go
+[00:46:11.720 --> 00:46:17.640]   next is that this is all sort of happening as a result really, or at least on the surface,
+[00:46:17.640 --> 00:46:26.760]   it looks like this is all happening as a result of either the unwillingness to take a chance on
+[00:46:26.760 --> 00:46:31.640]   hooks straight to the mainnet or just the slow nature of getting it there and clearly, you know,
+[00:46:31.640 --> 00:46:38.520]   there's a drive to get hooks live somewhere sooner. And this whole thing has come about as a mechanism
+[00:46:38.520 --> 00:46:43.560]   of being able to make that happen and get XRP across and potentially provide the way back.
+[00:46:43.560 --> 00:46:53.000]   But what this has now done is it's opened up the XRP to, I like to think of it as like horizontal
+[00:46:53.000 --> 00:46:58.760]   scaling, you know, when you could, you could essentially have, you know, different side
+[00:46:58.760 --> 00:47:05.880]   change performing different tasks, you know, for different reasons, or with, as well as the key bit
+[00:47:05.880 --> 00:47:14.440]   thing that we're only using a single native asset. And I could see why if we can, if we can have the
+[00:47:14.440 --> 00:47:22.760]   confidence that the bridge is going to be properly secure, and that that's a non-issue, and that if
+[00:47:22.760 --> 00:47:28.920]   there is a way in which we can defend against the political fallout of doing it, I can see
+[00:47:28.920 --> 00:47:36.520]   massive reasons why someone like Ripple would prefer this than having the hooks on the main
+[00:47:36.520 --> 00:47:41.960]   chain. And if the hooks were on, still on only ever on a side chain, but you had an ability to
+[00:47:41.960 --> 00:47:49.400]   move your XRP freely, all of the value potentially for hooks is now still going to get,
+[00:47:49.400 --> 00:47:56.120]   is going to come to fruition. All these amazing things which we're all thinking about that could
+[00:47:56.120 --> 00:48:01.880]   happen, will then be able to happen. And you'll only really ever going to move your XRP back to
+[00:48:01.880 --> 00:48:07.240]   the main chain if you need to be there. And so, and that's what I find sort of like really,
+[00:48:07.240 --> 00:48:15.400]   really interesting about this latest development, is where we, we're either ending up here by accident
+[00:48:15.400 --> 00:48:21.960]   or by somebody, ultimately with a very, very big vision of a different way of scaling the
+[00:48:21.960 --> 00:48:28.920]   ledger. So, I think this is a fascinating turn. And I think weeks I said it really well in the
+[00:48:28.920 --> 00:48:37.160]   tweet, when he said he's never been more excited, and I have to agree, I think some of these developments
+[00:48:37.160 --> 00:48:45.080]   in the last few months are absolutely, they're really, really good, and I'm really excited too.
+[00:48:45.880 --> 00:48:54.120]   I echo that that same feeling. I think as far as the technical aspect goes, we've never had
+[00:48:54.120 --> 00:49:00.360]   these moments that are occurring right now, and I really am starting to enjoy the amount of
+[00:49:00.360 --> 00:49:07.480]   influence over the awareness of others in our community for the changes that are occurring,
+[00:49:07.480 --> 00:49:15.640]   rather than all the unfortunate, riddler stuff that gets talked about a lot. But I really like
+[00:49:15.640 --> 00:49:20.840]   that this is starting to become the spotlight of the XRP ledger and the technology at hand.
+[00:49:20.840 --> 00:49:24.840]   Gene, you have your hand up though. Go ahead, please. Feel free to jump in and speak.
+[00:49:24.840 --> 00:49:33.960]   Yes, I love what everyone's about to say. Just a question in regards to, you know,
+[00:49:33.960 --> 00:49:40.440]   securing those bridges in a sense, something I've been working on with zero knowledge,
+[00:49:41.960 --> 00:49:47.800]   zero knowledge, and even metal boxes for that matter. Whoa, do you think that would be something
+[00:49:47.800 --> 00:49:54.120]   that would help improve the security of the network, especially when these transactions are
+[00:49:54.120 --> 00:50:00.840]   being validated? Well, I don't think so, because the transactions that are being validated,
+[00:50:00.840 --> 00:50:08.840]   that have cryptographic proof via X-pop, this is doing sure that B2M works in a multi-chain
+[00:50:08.840 --> 00:50:15.320]   environment, is that the transactions itself need to be public. It needs to be transparent.
+[00:50:15.320 --> 00:50:23.800]   What are the metadata that it affects needs to be transparent as well, which affected those,
+[00:50:23.800 --> 00:50:30.920]   did perform the transaction if that needs to be public as well, which it will, because, you know,
+[00:50:30.920 --> 00:50:37.080]   the ledger framework that takes up the data consensus protocol follows, ensures that the
+[00:50:37.080 --> 00:50:45.240]   ledger itself is transparent. It is open and public to anyone. So B2M needs the underlying
+[00:50:45.240 --> 00:50:51.640]   transactions to be open and public to anyone. Absolutely, understood. And thank you for that.
+[00:50:51.640 --> 00:50:57.000]   What about the users, the end users that end up getting picked off by a man on a metal attacks?
+[00:50:57.000 --> 00:51:02.200]   What do you mean by that? Because, yeah, what do you mean by that?
+[00:51:03.720 --> 00:51:09.640]   Anyone that's even doing anything, like the average user, right? Because this is awesome for,
+[00:51:09.640 --> 00:51:15.560]   this is also for the main net, this is also for the test net. This is awesome for people running
+[00:51:15.560 --> 00:51:20.520]   infrastructure, but then it comes back to the users who's going to protect the users, because
+[00:51:20.520 --> 00:51:27.800]   everything could be cryptographically validated, but who's assisting the users in a sense, who's
+[00:51:27.800 --> 00:51:31.480]   encrypting their network? Because there's been a lot of wallet hacks and everything happening,
+[00:51:31.480 --> 00:51:36.520]   because someone's been able to man in the metal. The communication between the user
+[00:51:36.520 --> 00:51:40.360]   in exchange, whether exchange is running its own infrastructure or not.
+[00:51:40.360 --> 00:51:48.600]   So B2M is not a product, it is not a service in which you're trusting a provider, some sort
+[00:51:48.600 --> 00:51:55.160]   similar to an XLS-DAD bridge, which is being proposed by Ripple Labs. It doesn't work that
+[00:51:55.160 --> 00:52:04.120]   way. It is a self-solving and a permissionless protocol in which your own captain really, because
+[00:52:04.120 --> 00:52:10.200]   you're the one that would be burning your own XRP via a particular transaction, you're the one that
+[00:52:10.200 --> 00:52:17.960]   is providing the X-pop blob or the validation messages over to the particular side chain or
+[00:52:17.960 --> 00:52:23.080]   the hook side chain. And once that's done, you could interact with the hook side chain, because
+[00:52:23.080 --> 00:52:29.160]   you already received your XRP. But really, there's no middleman, there's no provider,
+[00:52:29.160 --> 00:52:35.720]   because it is not a service maintained by a group of people and whatnot. It is a permissionless protocol.
+[00:52:35.720 --> 00:52:42.040]   And I think the interesting thing that I want to think about the side chains, right, especially
+[00:52:42.040 --> 00:52:48.440]   going to the fact that the UNL would have to trust the UNL that exists on another side chain,
+[00:52:49.000 --> 00:52:54.280]   does it make a lot more sense for these side chains to be rippled code base and to have that
+[00:52:54.280 --> 00:52:59.240]   same kind of consensus structure and each one of the side chains that would have to trust each other?
+[00:52:59.240 --> 00:53:07.160]   What do you mean by "tore idi-deen kuch nore nimem"? Like, when it comes to the node structure,
+[00:53:07.160 --> 00:53:12.920]   being able to interact with each other, say, I guess use an example of what they're doing,
+[00:53:12.920 --> 00:53:21.160]   ripple and piercist. So they're building that EVM-based side chain. Do you see that still having
+[00:53:21.160 --> 00:53:29.880]   the same ability where you would be able to, in the sense of having it decentralized and done
+[00:53:29.880 --> 00:53:35.320]   without having a central party act as the custodian, the node would still be able to communicate and
+[00:53:35.320 --> 00:53:42.360]   trust each other so where you could have that burn and re-issuing feature possible? Or does it make
+[00:53:42.360 --> 00:53:49.720]   a lot more sense for the side chains to be ripple code-based and consensus-ran, just like the XRP
+[00:53:49.720 --> 00:53:56.520]   ledger? So, since both of these networks need to trust each other, in a way that they're trusting
+[00:53:56.520 --> 00:54:02.040]   the infrastructure operators to be reliable, to be consistent, and to be trustworthy, in a way they
+[00:54:02.040 --> 00:54:10.680]   need to be able to view what the service software that is being used to power and maintain the
+[00:54:11.640 --> 00:54:21.800]   correlating network, the other network really. But to answer your question, I think, is that both
+[00:54:21.800 --> 00:54:26.600]   networks would not be able to interact with each other. They don't have a connection in a
+[00:54:26.600 --> 00:54:33.880]   technical manner. They don't interact via WebSocket. They don't interact via an API server. They only
+[00:54:33.880 --> 00:54:43.560]   interact in a way that they trust a particular validator publisher to include nodes, to include
+[00:54:43.560 --> 00:54:49.560]   validators that are, again, trust-worthy, that have a good amount of overlap on the network.
+[00:54:49.560 --> 00:54:56.040]   There's a lot of governance expect here that needs to be discussed over time, but hopefully it
+[00:54:56.040 --> 00:55:02.360]   will get into discussion, I guess. Yeah, for sure. And it is definitely more of a future step
+[00:55:02.360 --> 00:55:08.440]   where the networks themselves are being built right now. And so, it's more thinking past when
+[00:55:08.440 --> 00:55:14.440]   we have multiple sidechains. And this, I think, maybe the biggest difference being, like, if the
+[00:55:14.440 --> 00:55:21.880]   sidechain has itself its own token, that is the native asset, or if it wants to utilize the model
+[00:55:21.880 --> 00:55:29.560]   that the Hook sidechain is going with having the XRP be the main asset, the main token of the network.
+[00:55:29.560 --> 00:55:34.760]   So, I think that also probably could play a huge role in that essential
+[00:55:34.760 --> 00:55:39.720]   trusting of the nodes wanting to trust each other. Cheesecake, though, man, you got your hand up,
+[00:55:39.720 --> 00:55:44.680]   please feel free to ask a question. Yes, I want to circle back on you guys a little bit,
+[00:55:44.680 --> 00:55:49.160]   and I hope you guys didn't really touch too much on this, but it's been a while since I've
+[00:55:49.160 --> 00:55:57.160]   familiarized myself with the rippled protocol on the ledger. Can you explain that for me again,
+[00:55:57.160 --> 00:56:03.960]   please? That future. Yeah, you want to get into it? Because I'm just tired right now.
+[00:56:03.960 --> 00:56:05.880]   Yeah, if you don't mind, well,
+[00:56:05.880 --> 00:56:11.720]   yeah, go for it, man. So, as long as it's not too late for you, are you asking me to get into it?
+[00:56:11.720 --> 00:56:18.280]   Well, I mean, Rippled is the, is what they've called the code base, right? So, the XRP ledger
+[00:56:18.280 --> 00:56:26.680]   runs on the Rippled code base. It's just, I guess you'd say it's the term coined for the overall
+[00:56:26.680 --> 00:56:31.480]   code that is running the XRP ledger. Okay, that's cool. I couldn't remember what it was. It's been
+[00:56:31.480 --> 00:56:37.560]   a while. I appreciate it. Thank you. Yeah, but if, if that or Chris, if you have, if you guys have
+[00:56:37.560 --> 00:56:42.680]   like a higher level explanation that you'd, you'd like to break it down into, please feel free to
+[00:56:42.680 --> 00:56:48.760]   also, or Jean, I think you did a, did you just put your hand up there, Jean? It was for a question,
+[00:56:48.760 --> 00:56:53.480]   but no, no, wait, no, you can, you can, if you want, I don't think that's there right now. So,
+[00:56:53.480 --> 00:56:58.680]   please feel free. I'm completely satisfied with the answer on that. I appreciate it.
+[00:56:58.680 --> 00:57:03.400]   Awesome. Go ahead, those Jean, ask away.
+[00:57:03.400 --> 00:57:10.920]   The question I was going to have is what if someone wants to use side change to then
+[00:57:10.920 --> 00:57:16.120]   meant on and using an EVM, if maybe they want to use a different blockchain,
+[00:57:16.120 --> 00:57:20.280]   what if they want to use polygon that already has like zero knowledge EVM?
+[00:57:20.280 --> 00:57:26.600]   Well, so long as the correlating network is powered by the ex-opilaege consensus protocol,
+[00:57:26.600 --> 00:57:32.680]   in a way that they have, they follow the same structure as the other networks, in a way that,
+[00:57:32.680 --> 00:57:38.360]   what I mean by this is that they need to have, you need no less as well. And if they follow the
+[00:57:38.360 --> 00:57:45.480]   same legislature in a way, practically speaking, it could be done, I guess. But there's a lot of
+[00:57:45.480 --> 00:57:52.680]   factors that need to be discussed out, I guess, because it's, because polygon does use nothing
+[00:57:52.680 --> 00:57:58.760]   right. So, it's probably one, the polygon that's used by the default.
+[00:57:58.760 --> 00:58:04.840]   Sure, I'll say a little bit. There, there you go. Oh, the polygon uses the same consensus mechanism
+[00:58:04.840 --> 00:58:11.880]   as the ex-opilaege. Yes, it uses this in team fault tolerance. Oh, wow. The problem is polygon is
+[00:58:11.880 --> 00:58:20.920]   not governed by ex-opilaege key contributors, I guess. So, because for B2M and the
+[00:58:20.920 --> 00:58:27.720]   important moment to work in a multi-chain environment, there needs to be consistency in consensus,
+[00:58:27.720 --> 00:58:35.960]   in overlapped consensus between all the networks and governance. But that could be done, I guess,
+[00:58:35.960 --> 00:58:42.680]   technically. But I haven't looked into it, into the factors. Well, that's an interesting question.
+[00:58:42.680 --> 00:58:48.120]   And that, and it is along the lines of the exact same thing that I was kind of asking before Jean,
+[00:58:48.120 --> 00:58:54.040]   is like, if you have this, this EVM-based side chain, but it's running the very similar form of
+[00:58:54.040 --> 00:59:00.760]   consensus, does it really just take some code change where the UNLs are overlapping each other,
+[00:59:00.760 --> 00:59:06.360]   and does that need to be something that would be changed in your rippled code base,
+[00:59:06.360 --> 00:59:12.840]   or your polygon code base, or is that just building these oracle services that can improve
+[00:59:12.840 --> 00:59:19.400]   the information in states and other chains? But it's like, does that lead to centralization
+[00:59:19.400 --> 00:59:25.480]   and custodial services having to play a role rather than, I kind of like how the ex-op works,
+[00:59:25.480 --> 00:59:31.640]   where you have the proof of the state that you give a protocol, and then it issues
+[00:59:31.640 --> 00:59:38.120]   your tokens based off of the communication from the two chains. Chris, now go ahead, man.
+[00:59:38.120 --> 00:59:45.080]   Yeah, with questions like this, I always try and come back to the, you know, why,
+[00:59:45.080 --> 00:59:52.760]   the question of why, why would we, why we even want to do something like that. I mean,
+[00:59:53.800 --> 00:59:58.920]   I'm not saying it's not a good idea. I'm not saying it. It is a good idea. I'm just sort of
+[00:59:58.920 --> 01:00:05.320]   asking the question, why would you even, what fueled the question? What was your sort of like,
+[01:00:05.320 --> 01:00:10.440]   where's the benefit from the ex-op? Are you just perspective to do something like that in the first
+[01:00:10.440 --> 01:00:16.840]   place? You make a very good point. You know, I would, I see it as just the different capabilities,
+[01:00:16.840 --> 01:00:22.680]   like the same reasoning of why we would have our Evernote be able to be this later to a smart
+[01:00:22.680 --> 01:00:27.080]   contract platform. Maybe you want to bring your XRP over into your, your pure cyst,
+[01:00:27.080 --> 01:00:33.240]   EVM kind of standard chain that's a side chain to the XRP ledger so you could still bring your
+[01:00:33.240 --> 01:00:39.240]   asset over there and interact with it. And really just talking about the, I guess the bigger thing
+[01:00:39.240 --> 01:00:43.960]   would be like the bridging mechanisms in the way that the actual communication between the two chains
+[01:00:43.960 --> 01:00:51.160]   are being done. And I think, I think, as a developer, my answer is generally to most things,
+[01:00:51.160 --> 01:00:56.040]   yet probably doable. We could probably make something work because you generally can
+[01:00:56.040 --> 01:01:03.080]   usually make something work for most things. It's just, you know, if, you know, why, and I think
+[01:01:03.080 --> 01:01:09.160]   given the speed of which it's taking just to get to this stage with hooks, I think it would be a
+[01:01:09.160 --> 01:01:13.960]   very long time before we were even in a position where we, anywhere, we didn't even want to contemplate
+[01:01:13.960 --> 01:01:18.840]   going outside of the ledger. At least that's my overview of it. That have to be one hell of a good
+[01:01:18.840 --> 01:01:25.960]   reason for me why we would want to be looking at something new when we haven't even got our own
+[01:01:25.960 --> 01:01:33.400]   version of hooks on the main net yet. So I like the theoretical question but I can't see the
+[01:01:33.400 --> 01:01:42.280]   any sort of like reason why I would, by as a developer, for me as a developer, why I would spend
+[01:01:42.280 --> 01:01:46.440]   any significant amount of time thinking about something like that, at least not at this stage
+[01:01:46.440 --> 01:01:53.720]   of the development of the ledger anyway. Oh, I love it. And I thank you for giving your thoughts on
+[01:01:53.720 --> 01:02:02.440]   it because I completely agree with it. And that is, all it was, was more of a, just a theoretical,
+[01:02:02.440 --> 01:02:08.440]   and so yeah, I like that your level and the mind there, I agree with it.
+[01:02:08.440 --> 01:02:14.040]   Woah Jake, go ahead, man, and I want to be kind to you because I know you probably be on for an
+[01:02:14.040 --> 01:02:19.800]   hour or so. Yeah. We went over that. So the next couple minutes, I think we'll close up.
+[01:02:19.800 --> 01:02:28.360]   Oh, there you go, perfect timing, right? Yeah, thanks for having me. This was a great discussion.
+[01:02:28.360 --> 01:02:37.080]   I think some of the quotes, some of the discussions that took in place. I don't know, man.
+[01:02:37.080 --> 01:02:43.160]   Good night, man. I'm so tired right now. No, it's good. I really thank you for staying out.
+[01:02:43.160 --> 01:02:49.160]   Well, and you know, you could head out, man, and I really appreciate it, especially everybody
+[01:02:49.160 --> 01:02:53.800]   in the space. If there's any last minute questions, anybody who wants to come up, please
+[01:02:53.800 --> 01:02:59.640]   refer to hit the request. And if not, you know, Chris, vet, and cheesecake, Gene, if you guys each
+[01:02:59.640 --> 01:03:04.760]   want to say something before we close up the space, please feel free to go in that order, if that works.
+[01:03:04.760 --> 01:03:10.840]   You still there, Chris? Yeah, I'm still here. Yeah, if you want to, if you want to give us some of
+[01:03:10.840 --> 01:03:15.720]   your last thoughts, an overview on the space and what you're just thinking about, you know,
+[01:03:15.720 --> 01:03:21.800]   Evernote and Hooks, what you're most excited for. Oh, gosh, well, I think, you know, I've said a
+[01:03:21.800 --> 01:03:27.800]   lot today, I've actually, I just literally joined this call off the back of a two hour Zoom call
+[01:03:27.800 --> 01:03:37.320]   for BPM. So I'm in definitely need of a break from talking and a big drink. So I think I'll end by
+[01:03:37.320 --> 01:03:43.880]   simply saying, I'm so excited, I just can't hide it. See you later.
+[01:03:43.880 --> 01:03:49.560]   Thank you very much for coming today, Chris. vet and Gene, go ahead, guys.
+[01:03:49.560 --> 01:03:57.000]   What are your thoughts on what we just discussed before I leave?
+[01:03:57.000 --> 01:04:03.800]   That you there? I think he either like fell asleep earlier or he walked away probably 20 or 30
+[01:04:03.800 --> 01:04:09.560]   minutes ago. Gene though, if you're there, man, I'd like to hear your thoughts also. And that's,
+[01:04:09.560 --> 01:04:12.040]   I'm really, I'm happy you stayed well for the last couple minutes.
+[01:04:12.040 --> 01:04:19.160]   Of course, just want to say thank you. Well, thank you, death for holding your space.
+[01:04:19.160 --> 01:04:25.080]   Thank you, vet, for your, your partial participation. I appreciate you, Chris.
+[01:04:25.080 --> 01:04:32.360]   Just my final closing thoughts. The reason why I asked these questions is because, you know,
+[01:04:32.360 --> 01:04:37.640]   when I brought up polygon, I'm thinking, hey, this is a layer two. This is a layer two that's
+[01:04:37.640 --> 01:04:43.080]   derived off of tenderment. Even the XRPL, derived off of a little bit of tenderment as well,
+[01:04:43.080 --> 01:04:48.520]   cosmos did as well, and interoperability is the thing. You know, 20 years ago, we didn't think we
+[01:04:48.520 --> 01:04:53.880]   get this far with, you know, computers being handheld in our, you know, just being handheld
+[01:04:53.880 --> 01:04:59.960]   in general. You know, we got, you know, 5G on it and God knows what else we can do with it. So,
+[01:04:59.960 --> 01:05:05.400]   it's just, even though it doesn't seem feasible now, always, you know, pushing those boundaries
+[01:05:05.400 --> 01:05:12.120]   and pushing the limit that, you know, that's what we strive for, you know, for the ecosystem as a whole.
+[01:05:12.120 --> 01:05:16.200]   But we don't want to put, you know, too many things on our plate. You can just work on one thing at a time.
+[01:05:16.200 --> 01:05:20.040]   Go ahead, Chris. Thank you for reaching your end, man.
+[01:05:20.040 --> 01:05:26.040]   You know, just that's, Gene, you like actively involved in the developer community for the XRPL.
+[01:05:26.040 --> 01:05:31.320]   And then if you're not, would you like to? And I'm sure some of us can open a few doors if you're not.
+[01:05:31.320 --> 01:05:38.120]   Absolutely. I mean, I'm like, I'm kind of a free ball in it with trying to help with development,
+[01:05:38.120 --> 01:05:42.520]   but yeah, anyway, I can get more, just even more involved. I definitely would love to.
+[01:05:42.520 --> 01:05:43.720]   Definitely would love to.
+[01:05:43.720 --> 01:05:49.080]   Drop me a DM. We'll see if we can try and hook you up with a few groups. I mean, the fact that
+[01:05:49.080 --> 01:05:55.800]   you're a seed developer is going to be certainly in your favor, for sure. And think we're going to
+[01:05:55.800 --> 01:05:58.680]   certainly need more seed developers as hooks rolls out, for sure.
+[01:05:58.680 --> 01:06:00.120]   Thank you, Sonata.
+[01:06:00.120 --> 01:06:06.440]   And that is exactly what these spaces are all about. I know I said earlier in the space
+[01:06:06.440 --> 01:06:12.920]   about connecting people and the information being spread and distributed so that all of us
+[01:06:12.920 --> 01:06:21.000]   in the community and developers and onset in the future can come and speak about this together.
+[01:06:21.000 --> 01:06:26.280]   And that just, thank you so much, Chris and Jean. I'm so glad you came to the space today.
+[01:06:26.280 --> 01:06:30.360]   Cheesecake, man. You're the only one that hasn't gotten to speak yet in the last couple
+[01:06:30.360 --> 01:06:36.280]   minutes. If you have any thoughts or closing statements, please feel free and I think we'll close up after.
+[01:06:36.280 --> 01:06:42.200]   Yes. Thank you, Death Ranger, for allowing me up to ask a question and really appreciate it.
+[01:06:42.200 --> 01:06:49.960]   I love you all. Have a great day and yeah, appreciate your death. What's up, shellfish?
+[01:06:50.920 --> 01:06:55.960]   Excellent. Well, I thank you for coming, Cheesecake. And I thank everybody who came and listened.
+[01:06:55.960 --> 01:07:00.120]   I know we had some audio issues at the beginning of the space there, but I'm glad we got it all fixed
+[01:07:00.120 --> 01:07:05.640]   up. And I hope everybody has a good rest of the day. If anybody has any questions after listening
+[01:07:05.640 --> 01:07:12.600]   to this, please feel free to reach out to me, Chris, whoa, Jean. Everybody is open and trying
+[01:07:12.600 --> 01:07:17.160]   to help as many people as they can in this community. And so I really thank everybody for
+[01:07:17.160 --> 01:07:22.200]   coming to the space today. Well, Chris, you guys especially, so it wouldn't have been
+[01:07:22.200 --> 01:07:27.640]   as an information pact as it was if it wasn't for you. And vet, which I think that may have
+[01:07:27.640 --> 01:07:33.320]   fell asleep or something. But love you guys. And I hope to see you guys next week, Monday,
+[01:07:33.320 --> 01:07:37.080]   3.30 Eastern Standard Time. We'll be back to the regular time.
+
